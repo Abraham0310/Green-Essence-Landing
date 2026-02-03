@@ -5,7 +5,7 @@ import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import {Navbar} from "@/presentation/components/layout/Navbar";
 import {Footer} from "@/presentation/components/layout/Footer";
-
+import { WhatsAppButton } from "@/presentation/components/layout/WhatsAppButton"; // <--- AQUÍ
 // 1. Configuración de Fuentes
 // Inter: Para el cuerpo del texto (legibilidad técnica)
 const inter = Inter({
@@ -49,7 +49,7 @@ export default function RootLayout({
         {children}
 
         <Footer />  {/* <-- Aquí va el Footer al final */}
-
+        <WhatsAppButton/>
         </body>
         </html>
     );

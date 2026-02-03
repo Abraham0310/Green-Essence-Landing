@@ -11,7 +11,7 @@ export function Footer() {
                     <div className="col-span-1 md:col-span-2">
                         <h3 className="text-3xl font-serif font-bold mb-6 text-white">GREEN ESSENCE</h3>
                         <p className="text-gray-400 max-w-sm leading-relaxed mb-6">
-                            Ingeniería aplicada al paisaje. Recuperamos el equilibrio natural de tus espacios con rigor técnico y visión estética de alta gama.
+                            Ingeniería aplicada al paisaje. Recuperamos el equilibrio natural de tus espacios y areas verdes con rigor técnico y visión estética de alta gama.
                         </p>
                         <div className="flex gap-4">
                             <SocialLink name="Instagram" />
